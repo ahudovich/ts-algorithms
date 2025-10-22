@@ -18,13 +18,13 @@ function getFactorPairs(num: number): Result {
 }
 
 // Tests
-console.log(deepEqual(getFactorPairs(-10), []))
-console.log(deepEqual(getFactorPairs(0), []))
-console.log(deepEqual(getFactorPairs(1), []))
-console.log(deepEqual(getFactorPairs(2), [[1, 2]]))
+deepEqual(getFactorPairs(-10), [])
+deepEqual(getFactorPairs(0), [])
+deepEqual(getFactorPairs(1), [])
+deepEqual(getFactorPairs(2), [[1, 2]])
 // prettier-ignore
-console.log(deepEqual(getFactorPairs(4), [[1, 4], [2, 2]]))
+deepEqual(getFactorPairs(4), [[1, 4], [2, 2]])
 // prettier-ignore
-console.log(deepEqual(getFactorPairs(6), [[1, 6], [2, 3]]))
+deepEqual(getFactorPairs(6), [[1, 6], [2, 3]])
 // prettier-ignore
-console.log(deepEqual(getFactorPairs(12), [[1, 12], [2, 6], [3, 4]]))
+deepEqual(getFactorPairs(12), [[1, 12], [2, 6], [3, 4]])

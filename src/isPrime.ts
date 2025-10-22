@@ -15,13 +15,13 @@ function isPrime(num: number): boolean {
 }
 
 // Tests
-console.log(equal(isPrime(-10), false))
-console.log(equal(isPrime(0), false))
-console.log(equal(isPrime(1), false))
-console.log(equal(isPrime(2), true))
-console.log(equal(isPrime(3), true))
-console.log(equal(isPrime(4), false))
-console.log(equal(isPrime(5), true))
-console.log(equal(isPrime(7), true))
-console.log(equal(isPrime(51), false))
-console.log(equal(isPrime(100), false))
+equal(isPrime(-10), false)
+equal(isPrime(0), false)
+equal(isPrime(1), false)
+equal(isPrime(2), true)
+equal(isPrime(3), true)
+equal(isPrime(4), false)
+equal(isPrime(5), true)
+equal(isPrime(7), true)
+equal(isPrime(51), false)
+equal(isPrime(100), false)
